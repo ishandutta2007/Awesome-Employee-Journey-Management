@@ -1,7 +1,79 @@
-# Awesome-Employee-Journey-Management
+# Awesome Employee Journey Management [![Awesome](https://awesome.re/badge.svg)](https://awesome.re)
 
-Copy-Item README.md README.md.bak -Force
-# Manual step: replace SaaS and Open-Source sections with content above
-git add README.md
-git commit -m "docs: add employee journey management pricing (Culture Amp Vendr $23K, Lattice $4-13/seat, 15Five $4-16/user, Workday Peakon $20K, Glint $10.99/user) and open-source CohortHarbor; flag ServiceNow licensing requirement"
-git push
+> A curated directory of software, tools, frameworks, and resources for **Employee Journey Management (EJM)**, **Employee Experience (EX)**, and **Employee Lifecycle Workflows**—from hiring and onboarding to engagement, performance, and offboarding.
+
+---
+
+## Sector Overview & Market Dynamics
+
+The global Employee Experience Management (EXM) and Employee Journey Management market is currently estimated at **$6.4B – $7.9B** and is projected to reach over **$15B – $20B** by 2032 at an annual compound growth rate (CAGR) of **9% – 11%**. 
+
+The sector is **moderately to highly fragmented** rather than a winner-take-all monopoly:
+- Enterprise ERP/HCM behemoths (Microsoft Viva, ServiceNow, Workday, SAP SuccessFactors) anchor foundation-level lifecycle workflows.
+- Dedicated listening and engagement specialists (Qualtrics, Culture Amp, Lattice, 15Five) dominate pulse feedback, performance reviews, and manager enablement.
+- Modern self-hosted and open-source solutions provide custom, compliant alternatives for lifecycle workflow orchestration.
+
+---
+
+## SaaS Products
+
+The following employee experience and journey management platforms are sorted by company scale (**Market Capitalization / Company Valuation**, descending).
+
+| Product | Company Valuation / Market Cap | Starting Pricing | Free Tier Limits / Trial | Primary Focus |
+| :--- | :--- | :--- | :--- | :--- |
+| [**ServiceNow HRSD & EJM**](https://www.servicenow.com/products/employee-journey-management.html) | ~$160 Billion (Market Cap) | ~$60.00 / agent / month (Custom enterprise contract, billed annually) | Free trial only (Custom guided demo/PoC via sales representative; developer sandboxes available on ServiceNow Developer Program) | End-to-end multi-departmental employee journey orchestration & HR service delivery workflows |
+| [**Microsoft Viva (Viva Glint)**](https://www.microsoft.com/en-us/microsoft-viva/glint) | ~$3.1 Trillion *(Parent: MSFT)* / Viva Glint standalone unit | $2.00 / user / month (Billed annually; Microsoft 365 prerequisite) | Free trial only (90-day free trial up to 50 user seats, provisioned via Microsoft 365 admin center or representative) | AI-powered employee voice, sentiment listening, and lifecycle pulse analytics |
+| [**Workday Peakon Employee Voice**](https://www.workday.com/en-us/products/employee-voice/overview.html) | ~$55 Billion (Market Cap) | ~$4.00 – $6.00 / user / month (Estimated entry spend ~$20,000/year minimum contract) | Free trial only (No self-serve free trial; custom 14-day assisted proof of concept through enterprise sales) | Continuous employee listening, real-time sentiment scoring, and executive benchmark analytics |
+| [**Qualtrics EmployeeXM**](https://www.qualtrics.com/experience-management/employee/) | ~$12.5 Billion (Acquired by Silver Lake) | ~$4.17 / user / month (Entry plans start around ~$5,000/year base contract) | Free forever plan with limits (Qualtrics Free Account: 1 active survey, 100 responses/survey, 8 question types; advanced EmployeeXM lifecycle features require paid plan or sales trial) | Comprehensive 360 feedback, employee lifecycle pulse tracking, and engagement analytics |
+| [**Lattice**](https://lattice.com/) | $3.0 Billion (Series F Valuation) | $4.00 / seat / month (Engagement or Grow standalone; $11.00/seat/mo for Performance suite) | Free trial only (No self-serve free plan; offers interactive product tour and structured sales-assisted sandbox demo) | Performance management, OKR tracking, continuous check-ins, and employee career paths |
+| [**Culture Amp**](https://www.cultureamp.com/) | $1.5 Billion (Valuation) | $5.00 / employee / month (Entry Develop module; ~$23,000 median annual spend for multi-product suite) | Free trial only (No permanent free tier; guided interactive demo or structured sales-led evaluation upon request) | Culture analytics, employee engagement benchmarks, 180°/360° feedback, and turnover prevention |
+| [**15Five**](https://www.15five.com/) | ~$130 Million (Estimated valuation / ~$100M ARR) | $4.00 / user / month (Engage plan; $11.00/user/mo for Perform plan, billed annually) | Free trial only (14-day fully featured free trial with full access to check-ins, 1-on-1s, and pulse surveys; no credit card required) | Weekly check-ins, employee pulse surveys, OKR management, and manager coaching tools |
+
+---
+
+## Open-Source Solutions
+
+Self-hosted, transparent, and extensible open-source platforms for tracking the employee lifecycle, from recruitment and onboarding to continuous appraisal and exit workflows.
+
+Sorted by GitHub Stars (descending):
+
+| Repository | Stars | License | Tech Stack | Key Capabilities |
+| :--- | :--- | :--- | :--- | :--- |
+| [**Frappe HR**](https://github.com/frappe/hrms) | [![frappe/hrms stars](https://img.shields.io/github/stars/frappe/hrms?style=social&color=white)](https://github.com/frappe/hrms/stargazers) | GPL-3.0 | Python / Frappe / Vue | Complete employee lifecycle management: job applicant tracking, onboarding checklists, transfers, promotions, goal tracking, and exit surveys. |
+| [**Horilla**](https://github.com/horilla/horilla-hr) | [![horilla/horilla-hr stars](https://img.shields.io/github/stars/horilla/horilla-hr?style=social&color=white)](https://github.com/horilla/horilla-hr/stargazers) | LGPL-3.0 | Python / Django | Modern open-source HRMS delivering onboarding flows, employee directories, shift tracking, and performance appraisal milestones. |
+| [**OrangeHRM**](https://github.com/orangehrm/orangehrm) | [![orangehrm/orangehrm stars](https://img.shields.io/github/stars/orangehrm/orangehrm?style=social&color=white)](https://github.com/orangehrm/orangehrm/stargazers) | GPL-2.0 | PHP / Symfony | Battle-tested personnel management suite featuring recruitment pipelines, employee records, time & attendance, and appraisal reviews. |
+| [**ChiefOnboarding**](https://github.com/chiefonboarding/ChiefOnboarding) | [![chiefonboarding/ChiefOnboarding stars](https://img.shields.io/github/stars/chiefonboarding/ChiefOnboarding?style=social&color=white)](https://github.com/chiefonboarding/ChiefOnboarding/stargazers) | AGPL-3.0 | Python / Django / Vue | Dedicated employee onboarding platform featuring sequence timelines, pre-boarding courses, automated welcome tasks, and Slack/Teams bot integration. |
+| [**CohortHarbor**](https://github.com/lantingzhang1119/cohort-harbor) | [![lantingzhang1119/cohort-harbor stars](https://img.shields.io/github/stars/lantingzhang1119/cohort-harbor?style=social&color=white)](https://github.com/lantingzhang1119/cohort-harbor/stargazers) | MIT | TypeScript / Next.js | Modern self-hosted employee onboarding hub for internal training modules, document acknowledgment, and new hire assessment workflows. |
+| [**OpenHRApp**](https://github.com/mimnets/OpenHRApp) | [![mimnets/OpenHRApp stars](https://img.shields.io/github/stars/mimnets/OpenHRApp?style=social&color=white)](https://github.com/mimnets/OpenHRApp/stargazers) | MIT | React / TypeScript / Supabase | Lightweight self-hosted employee directory, attendance tracking, and peer performance evaluation platform for small-to-midsize businesses. |
+
+---
+
+## Key Stages of the Employee Journey
+
+```
+  [ Attract & Hire ]
+          │
+          ▼
+   [ Pre-Boarding ] ──► Welcome packet, paperwork, device provisioning
+          │
+          ▼
+    [ Onboarding ]  ──► First 30-60-90 days, buddy system, team rituals
+          │
+          ▼
+  [ Growth & Dev ]  ──► 1-on-1 check-ins, OKRs/goals, continuous feedback
+          │
+          ▼
+    [ Retention ]   ──► Engagement pulses, peer rewards, internal mobility
+          │
+          ▼
+   [ Offboarding ]  ──► Exit interviews, alumni network, access revocation
+```
+
+---
+
+## Contributing
+
+Contributions are welcome! Please check the guidelines:
+1. Ensure the tool specifically addresses one or more stages of the employee journey (onboarding, lifecycle workflows, feedback, retention, or offboarding).
+2. For SaaS tools, specify transparent starting pricing and explicit free tier or trial conditions.
+3. For open-source tools, include links to the official repository and documentation.
